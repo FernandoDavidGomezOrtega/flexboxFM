@@ -8,7 +8,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	background: #000 url('imagenes/fondo.jpg');
+	background: #000 url('../imagenes/fondo.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -24,7 +24,7 @@ body {
 
 header {
 	width: 100%;
-	padding: 50px 0;
+	padding: 30px 0;
 
 	display: flex;
 	flex-direction:row;
@@ -33,7 +33,7 @@ header {
 	align-items:center;
 }
 
-header .menu a {
+header .menu a, header .menu span {
 	color: #fff;
 	text-decoration: none;
 	margin-right:40px;
@@ -41,6 +41,31 @@ header .menu a {
 }
 
 header .menu a:hover {text-decoration: underline;}
+
+.logo img{
+	width: 350px;
+}
+/* 
+#box{
+  width: 60%;
+  float: left;
+  margin-top: 40px;
+} */
+
+#reloj{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Helvetica, Arial;
+  color: #fff;
+  /* border: 5px dashed #333; */
+  /* width: 30%; */
+  padding: 30px;
+  margin: 0px auto;
+}
+
+#slider{
+	width: 100%;
+}
 
 .main {
 	background: #fff;
@@ -76,16 +101,78 @@ aside {
 	display: flex;
 	flex-direction:column;
 	flex-wrap:wrap;
-	justify-content:space-between;
+	/* justify-content:space-between; */
 }
 
-aside .ad {
-	font-size: 30px;
-	text-align: center;
-	color: #fff;
-	padding: 50px 0;
+.centrado{
+	display: flex;
+	justify-content: center;
+}
+
+aside .ad{
+	font-size: 15px;
+	text-align: justify;
+	color: rgb(0, 0, 0);
+	padding: 20px 0;
 	/*margin: 20px 0;*/
 	background: #4264a2;
+	margin-bottom: 20px;
+	flex-direction: column;
+}
+
+/* #login-welcome{
+	text-align: center;
+}
+
+#login-welcome a{
+	color: #000;
+} */
+
+aside h4{
+	text-align: center;
+}
+
+aside img{
+	width: 100%;
+	margin: 20px 0px;
+	padding: 0 10%;
+	/* border-radius: 50%; */
+}
+
+aside p{
+	padding: 0 5px;
+}
+
+aside form{
+	padding: 0 5%;
+}
+
+aside input[type="submit"]{
+	background: #03C4EB;
+	border: 0;
+  border-radius: 5px;	
+  padding: 10px 24px;
+  color: #fff;
+	transition: 0.4s;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+aside input[type="submit"]:hover {
+  background: #25d8fc;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="number"],
+select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 footer {
@@ -118,6 +205,10 @@ footer .redes-sociales a {
 		width: 100%;
 	}
 
+	.logo img{
+		width: 253px;
+	}
+
 	aside {
 		width: 100%;
 		flex-direction:row;
@@ -145,7 +236,11 @@ footer .redes-sociales a {
 		margin-bottom: 20px;
 	}
 
-	header .menu a {
+	.logo img{
+		width: 253px;
+	}
+
+	header .menu a, #login-welcome span {
 		margin:0 20px; 
 	}
 
@@ -167,5 +262,10 @@ footer .redes-sociales a {
 @media screen and (max-width: 400px) {
 	aside {
 		display: none;
+	}
+
+	.logo img{
+		width: 250px;
+		max-width: 100%;
 	}
 }
