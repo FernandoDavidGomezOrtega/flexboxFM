@@ -10,9 +10,12 @@
   <!-- GOOGLE FONTS ----------------------- -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
   <!-- ESTILOS CSS----------------------------- -->
   <link rel="stylesheet" href="css/styles.css">
-  <!-- <link id="theme" rel="stylesheet" type="text/css" href="css/green.css"> -->
+  <link id="theme" rel="stylesheet" type="text/css" href="css/gray-theme.css">
 
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -30,7 +33,19 @@
 </head>
 
 <body>
+    <div class="" id ="selector-theme">
+        <div class="" id ="gray-theme" title="Cambiar a tema gris"></div>
+        <div class="" id ="yellow-theme" title="Cambiar a tema amarillo"></div>
+          <div class="" id ="pink-theme" title="Cambiar a tema rosa"></div>
+            <div class="" id ="green-theme" title="Cambiar a tema verde"></div>
+            <div class="" id ="black-theme" title="Cambiar a tema negro"></div>
+      </div>
+
   <div class="contenedor" id="">
+
+
+
+
     <!-- HEADER----------------
   ------------------------ -->
     <header>
@@ -76,33 +91,10 @@
     <!-- SECTION MAIN----------------
     ---------------------------- -->
     <section class="main">
-      
-      <article>
-        <div class="thumb" id="">
-          <img src="imagenes/thumb.jpg" alt="">
-        </div>
 
-        <h2>Título del artículo</h2>
-        <p>
-          Donec id massa tempor, euismod augue semper, viverra enim. Cras ac diam urna. Donec molestie libero vitae dui
-          maximus, sit amet viverra neque ornare. Aenean eu molestie lorem. Aliquam tellus ligula, dignissim et diam
-          vitae, congue auctor dolor. Praesent gravida commodo turpis, elementum dignissim arcu vestibulum nec. Integer
-          finibus risus vitae magna eleifend, a maximus lorem vestibulum. Pellentesque laoreet tortor ac aliquam
-          bibendum. Nulla libero dolor, luctus sed quam vel, sodales pellentesque tellus. Donec vitae velit augue.
-          Mauris bibendum fermentum mi, vel aliquam tortor pellentesque vitae. Proin vel neque eget nulla scelerisque
-          aliquam ut eu ligula. Morbi non tempor ipsum. Curabitur varius lorem a diam fringilla hendrerit.
-        </p>
-
-        <p>
-          Donec id massa tempor, euismod augue semper, viverra enim. Cras ac diam urna. Donec molestie libero vitae dui
-          maximus, sit amet viverra neque ornare. Aenean eu molestie lorem. Aliquam tellus ligula, dignissim et diam
-          vitae, congue auctor dolor. Praesent gravida commodo turpis, elementum dignissim arcu vestibulum nec. Integer
-          finibus risus vitae magna eleifend, a maximus lorem vestibulum. Pellentesque laoreet tortor ac aliquam
-          bibendum. Nulla libero dolor, luctus sed quam vel, sodales pellentesque tellus. Donec vitae velit augue.
-          Mauris bibendum fermentum mi, vel aliquam tortor pellentesque vitae. Proin vel neque eget nulla scelerisque
-          aliquam ut eu ligula. Morbi non tempor ipsum. Curabitur varius lorem a diam fringilla hendrerit.
-        </p>
-      </article>
+        <div class="" id="posts">
+            <!-- Cargar posts desde js -->
+          </div>
     </section>
 
     <!-- ASIDE-------------------------
@@ -120,8 +112,8 @@
             </div>
       </div>
 
-      <div class="ad" id="">
-          <div class="" id ="login">
+      <div class="ad" id="login">
+          <div class="" id ="">
               <h4><span>Identifícate</span></h4>
             <form action="" method="get" id="">
               <label for="name">Nombre</label>
@@ -158,6 +150,19 @@
         <a href="https://github.com/FernandoDavidGomezOrtega" target="_blank">Github</a>
       </div>
     </footer>
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+      <!-- Required JavaScript Libraries -->
+  <!-- <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/morphext/morphext.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/stickyjs/sticky.js"></script> -->
+  <script src="lib/easing/easing.js"></script>
   </div>
 </body>
 

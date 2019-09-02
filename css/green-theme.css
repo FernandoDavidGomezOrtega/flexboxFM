@@ -1,0 +1,9 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(
+		rgba( 53, 243, 7 , 0.5),
+		rgba( 53, 243, 7 , 0.5)
+	),  url('../imagenes/fondo.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
