@@ -7,7 +7,7 @@ $(document).ready(function () {
     slideWidth: 1000,
     adaptiveHeight: true,
     auto: true,
-    pause: 3000,
+    pause: 3500,
     keyboardEnabled: true
     // autoStart: true
 
