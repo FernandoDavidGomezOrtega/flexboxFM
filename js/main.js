@@ -52,7 +52,7 @@ $(document).ready(function () {
   }
 
   // Posts
-  if (window.location.href.indexOf('index') > -1) {
+  // if (window.location.href.indexOf('index') > -1) {
     var posts = [
       {
         image: 'imagenes/article1image.jpg',
@@ -92,11 +92,11 @@ $(document).ready(function () {
         <div class="centrado">
           <img src="${item.image}" alt="Imagen del post">
         </div>
-        <h2>${item.title}</h2>
-        <span class="date">${item.date}</span>
-        <p>
-          ${item.content}
-        </p>
+          <h2>${item.title}</h2>
+          <span class="date">${item.date}</span>
+          <p>
+            ${item.content}
+          </p>
         <div class="section-title-divider"></div>
       </article>
       `;
@@ -104,7 +104,7 @@ $(document).ready(function () {
       $('#posts').append(post)
 
     })
-  }
+  // }
 
   // Selector de tema
   var theme = $('#theme')
