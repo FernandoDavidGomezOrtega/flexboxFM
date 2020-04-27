@@ -420,10 +420,17 @@ footer a {
   transition: 0.3s ease all;
 }
 footer a:hover {
-	display: inline-block;
+  display: inline-block;
   text-decoration: none;
   color: #012566;
   margin-left: 10px;
   margin-right: 10px;
   transform: scale(1.1);
 }
+/* 
+.boxslider {
+  height: 521px;
+}
+.boxslider img {
+  max-height: 521px;
+} */
